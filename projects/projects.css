@@ -1,0 +1,20 @@
+body {
+    background-color: #f0f9ff;
+}
+
+.projects__container {
+    display: flex;
+    padding: 200px 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects__item {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.projects__item h4 {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+}

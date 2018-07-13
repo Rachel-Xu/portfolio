@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Projects | Rachel Xu</title>
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/flexslider.css">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="stylesheet" href="/css/responsive.css">
+		<link rel="stylesheet" href="/css/animate.min.css">
+		<link rel="stylesheet" href="/projects/projects.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+<body>
+<!-- Header Section -->
+<section class="tophead" role="tophead">
+	<!-- Navigation Section -->
+	<header id="header">
+		<div class="header-content clearfix"> <a class="logo" href="#">Rachel</a>
+			<nav class="navigation" role="navigation">
+				<ul class="primary-nav">
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/index.html#services">About me</a></li>
+					<li><a href="#">projects</a></li>
+					<li><a href="/index.html#contact">contact</a></li>
+				</ul>
+			</nav>
+			<a href="#" class="nav-toggle">Menu<span></span></a>
+		</div>
+	</header>
+</section>
+
+<div class="projects__container">
+	<div class="projects__item">
+		<div id="balls-holder"></div>
+		<h4>colorful balls</h4>
+		<p>click on the canvas to add more balls</p>
+	</div>
+	<div class="projects__item">
+		<div id="moemo-holder"></div>
+		<h4>motion and emotion</h4>
+		<p>click on "angry", "delighted", "depressed", and "calm" to see animation</p>
+	</div>
+	<div class="projects__item">
+		<div id="cloud-holder"></div>
+		<h4>crying cloud</h4>
+		<p>click on the blue canvas</p>
+	</div>
+	<div class="projects__item">
+		<div id="minion-holder"></div>
+		<h4>minion and his icecream</h4>
+		<p>try to take his icecream from him</p>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/p5.min.js"></script>
+<script src="/js/p5.dom.min.js"></script>
+<script src="/js/p5.sound.min.js"></script>
+
+<script src="/projects/colorful-ball/sketch.js"></script>
+<script src="/projects/motion-emotion/sketch.js"></script>
+<script src="/projects/clouds/sketch.js"></script>
+<script src="/projects/minion/sketch.js"></script>
+
+<script>
+$(document).ready(function() {
+	// Header Scroll
+	$(window).on('scroll', function() {
+		var scroll = $(window).scrollTop();
+
+		if (scroll >= 50) {
+			$('#header').addClass('fixed');
+		} else {
+			$('#header').removeClass('fixed');
+		}
+	});
+});
+</script>
+</body></html>

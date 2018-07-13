@@ -1,0 +1,15 @@
+{
+  "name": "rachelx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vonWolfehaus/rachelx.git",
+  "author": "Rachel Xu",
+  "license": "",
+  "private": false,
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "dependencies": {
+    "static-server": "^2.2.1"
+  }
+}
