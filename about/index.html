@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About | Rachel Xu</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/flexslider.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/responsive.css">
+        <link rel="stylesheet" href="/css/animate.min.css">
+        <link rel="stylesheet" href="/about/about.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+<body>
+<!-- Header Section -->
+<section class="tophead" role="tophead">
+    <!-- Navigation Section -->
+    <header id="header">
+        <div class="header-content clearfix"> <a class="logo" href="/">Rachel</a>
+            <nav class="navigation" role="navigation">
+                <ul class="primary-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#" class="current-link">About me</a></li>
+                    <li><a href="/#contact">contact</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="nav-toggle">Menu<span></span></a>
+        </div>
+    </header>
+</section>
+
+<section class="about">
+	<img src="https://media.licdn.com/dms/image/C4E03AQFkmZIpdFHZIQ/profile-displayphoto-shrink_200_200/0?e=1537401600&v=beta&t=cRFB64RltqIH8EtTX4EG_Xm4oW5b_BfBBPwAEHZFBDI" class="about-photo"/>
+	<div class="about-container">
+		<h4 class="text-center">about me</h4>
+		<div class="about-content">
+			<p>Hey, I'm Rachel! </p>
+			<p>I used to be a team leader at Boeing, focused on creating a magical flying experience. I love research and design. Earlier this year, I made the decision to expand my expertise by exploring the dynamic tech industry. Now, I am a full-time grad student in the Human-Centered Design and Engineering program at the University of Washington and am running a design and consulting firm on the side.</p>
+			<p>You can view my <a href="http://www.kunxudesign.com">previous industrial design work here.</a></p>
+			<p>Besides research and design, I also like painting, dancing, yoga, world traveling, and reading. One of my favorite books is “Sapiens” by Yuval Noah Harari.</p>
+			<br/>
+			<p><strong>Location:</strong> Greater Seattle Area</p>
+			<p><strong>Email:</strong> <a href="mailto:kunxudesign@gmail.com">kunxudesign@gmail.com</a></p>
+			<p><strong>Resume:</strong> <a href="https://www.linkedin.com/in/kunxudesign/"><i class="fa fa-linkedin"></i></a></p>
+		</div>
+	</div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    // Header Scroll
+    $(window).on('scroll', function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 50) {
+            $('#header').addClass('fixed');
+        } else {
+            $('#header').removeClass('fixed');
+        }
+    });
+});
+</script>
+</body></html>

@@ -1,0 +1,50 @@
+.about {
+    /* background-color: #f2f2f2; */
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+.about h4 {
+	font-size: 33px;
+	line-height: 33px;
+	letter-spacing: 2px;
+	font-weight: 300;
+}
+.about h5 {
+	font-size: 21px;
+	font-weight: 300;
+	margin-bottom: 10%;
+	text-transform: none;
+}
+.about p {
+	color: #6c7279;
+	font-size: 13px;
+	font-weight: 400;
+	margin-top: 16px;
+}
+.about-photo {
+    align-self: flex-start;
+    margin-top: 100px;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+.about-container {
+    max-width: 800px;
+}
+.about-content {
+	margin: 50px 30px;
+}
+.about-content li a {
+	color: #6c7279;
+	line-height: 30px;
+}
+.about-content li a:hover {
+	color: #000;
+}
+.about-content__title {
+	margin-top: 0;
+}
+.fa.fa-linkedin {
+	font-size: 16px;
+	padding: 4px;
+}
