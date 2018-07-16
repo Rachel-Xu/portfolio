@@ -63,6 +63,34 @@ p {
 	padding-top: 300px;
 }
 
+.c-override-1 {
+	color: #218DD8 !important;
+}
+.c-override-2 {
+	color: #51C6F4 !important;
+}
+.c-override-3 {
+	color: #0CC9AA !important;
+}
+.c-override-4 {
+	color: #90BD45 !important;
+}
+.c-override-5 {
+	color: #C9BF32 !important;
+}
+.c-override-6 {
+	color: #E9A340 !important;
+}
+.c-override-7 {
+	color: #B95879 !important;
+}
+.c-override-8 {
+	color: #834761 !important;
+}
+.c-override-9 {
+	color: #605249 !important;
+}
+
 
 @media (min-width: 500px) {
 	.intro-hero {
