@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Expanse | Rachel Xu</title>
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/flexslider.css">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="stylesheet" href="/css/responsive.css">
+		<link rel="stylesheet" href="/css/animate.min.css">
+		<link rel="stylesheet" href="/immersive-cabin/styles.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+<body>
+	<!-- Header Section -->
+	<section class="tophead" role="tophead">
+		<!-- Navigation Section -->
+		<header id="header">
+			<div class="header-content clearfix"> <a class="logo" href="/">Rachel</a>
+				<nav class="navigation" role="navigation">
+					<ul class="primary-nav">
+						<li><a href="/about">About me</a></li>
+						<li><a href="/#projects">projects</a></li>
+						<li><a href="/#contact">contact</a></li>
+					</ul>
+				</nav>
+				<a href="#" class="nav-toggle">Menu<span></span></a>
+			</div>
+		</header>
+	</section>
+
+	<div class="immersive-cabin">
+
+		<section id="intro">
+			<img class="intro-hero" src="/immersive-cabin/boeing-stars.jpg"/>
+			<div class="intro-content d-flex d-center d-col">
+				<h1>Immersive Cabin Experience</h1>
+				<h4>A research aims to reduce visual induced motion sickness in future scenario</h4>
+			</div>
+		</section>
+
+		<section id="first" class="d-flex d-start d-row d-wrap" style="justify-content: space-between">
+			<div class="d-flex d-center d-col d-grid-2-4">
+				<p>Boeing is planning to provide the passengers with the magical ﬂying experience by ﬁlling the cabin space with projected animation.</p>
+				<p>Although the new technology will help to create a refreshing environment, it can also create problems if the immersive content was designed inconsiderately.</p>
+				<p>Boeing composed initial guideline for the airlines to eliminate the potential undesired consequence — visually induced motion sickness.</p>
+				<p>This research project aims to ensure the immersive experience by further validating the initial design guideline in detail through secondary research and EEG test analysis.</p>
+				<h4>Team</h4>
+				<div class="d-flex d-col" style="margin-left: 18px">
+					<h6>Boeing</h6>
+					<p>Myself<br/>
+						One Technical Fellowship Researcher from Boeing <br/>
+						Two other designers from Boeing Research & Technology <br/>
+					</p>
+						<h6>Tsinghua University</h6>
+					<p>
+						One professor from the Design School of Tsinghua University <br/>
+						One professor from the Psychology School of Tsinghua University <br/>
+						Students from Tsinghua University
+					</p>
+				</div>
+				<h4 style="margin-top: 40px">Role</h4>
+				<div class="d-flex d-col" style="margin-left: 18px">
+					<p>
+					<strong>Project Lead</strong><br/>
+					<em>My contributions to the project are:</em><br/>
+					Deﬁned the technical contract and budget<br/>
+					Reviewed deliverables from Tsinghua University<br/>
+					Supported the Boeing designers and Tsinghua’s Students during project execution<br/>
+					Report progress and result to the Boeing Research & Technology Global President
+					</p>
+				</div>
+			</div>
+			<div class="d-flex d-grid-1-3">
+				<img src="/immersive-cabin/boeing-allure.jpg" style="align-self: flex-start"/>
+			</div>
+		</section>
+
+		<section class="d-flex d-center d-col text-center d-grid-100" style="margin-top: 60px; background-color: rgb(228, 228, 228)">
+			<h2 style="padding-top: 10px">Process</h2>
+			<img src="/immersive-cabin/process.png"/>
+		</section>
+
+	</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function() {
+	// Header Scroll
+	$(window).on('scroll', function() {
+		var scroll = $(window).scrollTop();
+
+		if (scroll >= 50) {
+			$('#header').addClass('fixed');
+		} else {
+			$('#header').removeClass('fixed');
+		}
+	});
+});
+</script>
+</body></html>

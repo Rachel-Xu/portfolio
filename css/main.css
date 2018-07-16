@@ -525,6 +525,10 @@ ul li {
 	justify-content: center;
 }
 
+.d-justify-end {
+	justify-content: flex-end;
+}
+
 .d-align-center {
 	align-content: center;
 }

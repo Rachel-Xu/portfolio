@@ -1,0 +1,49 @@
+p {
+	color: #000;
+	font-size: 16px;
+	line-height: 1.7em;
+}
+
+
+.immersive-cabin {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 200px 40px;
+}
+
+.immersive-cabin h6 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.intro-hero {
+	width: 100%;
+	height: auto;
+}
+
+#first {
+	padding-top: 150px;
+}
+
+#intro .intro-content {
+	z-index: 9;
+	text-align: center;
+	margin-top: -200px;
+}
+
+.intro-content h1 {
+	font-size: 30px;
+	color: #fff;
+}
+
+.intro-content h4 {
+	font-size: 16px;
+	color: #fff;
+}
+
+@media (max-width: 1028px) {
+	.d-grid-1-4 {
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+}
