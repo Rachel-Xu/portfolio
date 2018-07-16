@@ -1,47 +1,91 @@
+html, body {
+	margin: 0;
+}
 
-.about {
-    /* background-color: #f2f2f2; */
-    padding: 100px 0;
-    display: flex;
-    justify-content: center;
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0;
 }
-.about h4 {
-	font-size: 33px;
-	line-height: 33px;
-	letter-spacing: 2px;
-	font-weight: 300;
+
+.expanse {
+	margin-bottom: 50px;
 }
-.about h5 {
-	font-size: 21px;
-	font-weight: 300;
-	margin-bottom: 10%;
-	text-transform: none;
+
+.expanse section {
+	margin-top: 80px;
 }
-.about p {
-	color: #6c7279;
-	font-size: 13px;
-	font-weight: 400;
-	margin-top: 16px;
+
+.expanse section.no-margin {
+	margin-top: 12px;
 }
-.about-photo {
-    align-self: flex-start;
-    margin-top: 100px;
-    margin-left: 30px;
-    border-radius: 3px;
+
+.text-margin {
+	margin: 50px;
 }
-.about-container {
-    max-width: 800px;
+.text-center {
+	text-align: center;
 }
-.about-content {
-	margin: 50px 30px;
-}
-.about-content li a {
-	color: #6c7279;
-	line-height: 30px;
-}
-.about-content li a:hover {
+
+p {
 	color: #000;
+	font-size: 16px;
+	line-height: 1.7em;
 }
-.about-content__title {
-	margin-top: 0;
+
+#intro {
+	position: relative;
+}
+
+.intro-hero {
+	position: absolute;
+	top: 120px;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.intro-content {
+	z-index: 9;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.intro-content h1 {
+	font-size: 30px;
+}
+
+.intro-content h4 {
+	font-size: 16px;
+}
+
+#first {
+	padding-top: 300px;
+}
+
+
+@media (min-width: 500px) {
+	.intro-hero {
+		top: 70px;
+	}
+}
+
+@media (min-width: 768px) {
+	.intro-hero {
+		top: 20px;
+	}
+}
+
+@media (min-width: 992px) {
+	.intro-content {
+		padding-top: 150px;
+	}
+
+	.intro-content h1 {
+		font-size: 45px;
+	}
+
+	.intro-content h4 {
+		font-size: 22px;
+	}
 }
