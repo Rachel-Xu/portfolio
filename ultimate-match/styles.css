@@ -6,37 +6,6 @@ html, body {
 	width: 80%;
 }
 
-.d-flex {
-	display: flex;
-	position: relative;
-}
-
-.d-row {
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-.d-col {
-	flex-direction: column;
-}
-
-.d-center {
-	justify-content: center;
-	align-content: center;
-}
-
-.d-h-center {
-	justify-content: center;
-}
-
-.d-start {
-	align-content: flex-start;
-}
-
-.d-end {
-	align-content: flex-end;
-}
-
 .align-top {
 	margin-top: 15vh;
 }
@@ -44,6 +13,14 @@ html, body {
 .xl {
 	width: 25vw;
 	height: auto;
+}
+
+.xtra-v-pad {
+	padding-top: 8vh;
+	padding-bottom: 8vh;
+}
+.xtra-v-pad-bot {
+	padding-bottom: 8vh;
 }
 
 img {
@@ -92,6 +69,9 @@ section:nth-child(odd) {
 .step3-img--top:hover {
 	opacity: 0;
 }
+.step3-fireworks {
+	margin-top: 5vh;
+}
 
 .step5 {
 	width: 100vw;
@@ -136,6 +116,13 @@ section:nth-child(odd) {
 	.align-top {
 		margin-top: 1vh;
 		margin-bottom: 5vh;
+	}
+}
+
+@media (max-width: 1230px) {
+	section.fill-height {
+		padding-top: 5vh;
+		padding-bottom: 5vh;
 	}
 }
 
