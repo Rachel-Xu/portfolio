@@ -586,6 +586,10 @@ ul li {
 }
 
 @media (max-width: 1028px) {
+	.d-grid-1-4 {
+		flex-basis: 50%;
+		max-width: 50%;
+	}
 	.d-grid-2-4 {
 		flex-basis: 100%;
 		max-width: 100%;

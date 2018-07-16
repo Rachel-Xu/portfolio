@@ -89,3 +89,9 @@ p {
 		font-size: 22px;
 	}
 }
+
+@media (max-width: 1028px) {
+	.container {
+		padding-left: 18px;
+	}
+}
