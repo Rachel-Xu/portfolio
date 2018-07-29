@@ -6,6 +6,11 @@ html, body {
 	width: 80%;
 }
 
+.centered-text {
+    width: 40%;
+    align-self: center;
+}
+
 .align-top {
 	margin-top: 15vh;
 }
@@ -42,11 +47,11 @@ img.small {
 section.fill-height {
 	position: relative;
 	min-height: 100vh;
-	background: #FE2E62;
+	background: #c2f5ff;
 }
 
 section:nth-child(odd) {
-	background: #c2f5ff;
+	background: #FE2E62;
 }
 
 
